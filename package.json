@@ -16,7 +16,8 @@
     "watch": "gulp watch",
     "coverage": "gulp coveralls",
     "lint": "gulp eslint",
-    "lint:fix": "gulp eslint --fix"
+    "lint:fix": "gulp eslint --fix",
+    "start-selenium-server": "./node_modules/.bin/selenium-standalone install && ./node_modules/.bin/selenium-standalone start"
   },
   "files": [
     "build",
@@ -54,6 +55,7 @@
     "eslint-plugin-mocha": "^4.7.0",
     "eslint-plugin-promise": "^3.3.1",
     "mocha": "^5.1.1",
+    "selenium-standalone": "^6.17.0",
     "should": "^13.2.3",
     "wd": "^1.11.0",
     "webdriverio": "^5.16.10"

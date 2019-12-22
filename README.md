@@ -8,6 +8,12 @@ The code in this directory defines a client library for use with the gRPC-based 
 npm install test-ai-classifier-client
 ```
 
+## Start Selenium server
+
+```
+npm run start-selenium-server
+```
+
 ## Usage
 
 This client exposes as the default export a `ClassifierClient` class, which can be instantiated as follows:
